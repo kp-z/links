@@ -40,8 +40,11 @@
         .box2{
             border-radius: 8px
         }
-        .img-circle{
-            height: 40px
+        .img-rounded{
+            height: 60px;
+            box-shadow: 5px 3px 10px rgba(0, 0, 0, .2);
+            border-radius: 5px;
+            object-fit: cover;
         }
         .sidebar-menu.collapsed
             .sidebar-menu-inner{
@@ -54,7 +57,8 @@
             }
         }
         .box2{
-            height: 100px
+            height: 100px;
+            background: transparent;
         }
     </style>
 
@@ -62,7 +66,7 @@
 
 </head>
 
-<body class="page-body" style="background: #f1f3f5">
+<body class="page-body" style="background: #f1f2f6">
     <!-- skin-white -->
     <div class="page-container">
         <div class="sidebar-menu toggle-others fixed collapsed">
@@ -70,11 +74,13 @@
                 <header class="logo-env">
                     <!-- logo -->
                     <div class="logo">
-                        <a href="index.html" class="logo-expanded">
-                            <img src="../assets/images/logo@2x.png" width="100%" alt="" />
+                        <a href="index.html" class="logo-expanded font-weight-bold">
+                            <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/cube-logo.png" width="30%" style="display: inline-block;" alt="" />
+                            <h4 class="text-white" style="display: inline-block; margin: 0 0 0 20px">岛屿</h4>
                         </a>
-                        <a href="index.html" class="logo-collapsed">
+                        <a href="index.html" class="logo-collapsed font-weight-bold">
                             <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/cube-logo.png" width="40%" alt="" />
+                            <h4 class="text-white ">岛屿</h4>
                         </a>
                     </div>
                     <div class="mobile-menu-toggle visible-xs">
@@ -206,14 +212,14 @@
 
             <h4 class="text-gray"><i class="linecons-thumbs-up" style="margin-right: 7px;" id="推荐"></i>推荐</h4>
             <div class="row">
-                <div class="col-sm-3" >
-                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://zkpeace.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" >
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px;" onclick="window.open('https://zkpeace.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" >
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/speaker.png" class="img-circle" width="40">
+                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/speaker.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
+                                <a href="#" class="xe-user-name overflowClip_1 lg">
                                     <strong>途中的树</strong>
                                 </a>
                                 <p class="overflowClip_2">本站管理员主页</p>
@@ -221,11 +227,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.notion.so/KP-38432f8d93be45d18943d906262c1273', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" >
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/folder.png" class="img-circle" width="40">
+                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/folder.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -236,11 +242,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://zkpeace.com/wiki/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" >
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/cup-logo.png" class="img-circle" width="40">
+                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/cup-logo.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -251,11 +257,11 @@
                         </div>
                     </div>
                 </div>
-                 <div class="col-sm-3">
+                 <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.zhihu.com/club/1365658701693595648', '_blank')" data-toggle="tooltip" data-placement="bottom" title="">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/acar.png" class="img-circle" width="40">
+                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/acar.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -270,11 +276,11 @@
             <br />
             <h4 class="text-gray"><i class="linecons-lightbulb" style="margin-right: 7px;" id="设计"></i>设计-平面</h4>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://viggoz.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://viggoz.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://tvax2.sinaimg.cn/crop.0.0.2048.2048.180/6cc4d03aly8flbwh4eaohj21kw1kwwi4.jpg?KID=imgbed,tva&Expires=1588310790&ssig=N8DLjBRNLz" class="img-circle" width="40">
+                                <img src="https://tvax2.sinaimg.cn/crop.0.0.2048.2048.180/6cc4d03aly8flbwh4eaohj21kw1kwwi4.jpg?KID=imgbed,tva&Expires=1588310790&ssig=N8DLjBRNLz" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -285,11 +291,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://lastone.art/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://lastone.art/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://s2.ax1x.com/2019/09/25/ueY4G6.png" class="img-circle" width="40">
+                                <img src="https://s2.ax1x.com/2019/09/25/ueY4G6.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -300,11 +306,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.zhheo.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.zhheo.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://blog.zhheo.com/img/avatar.png" class="img-circle" width="40">
+                                <img src="https://blog.zhheo.com/img/avatar.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -315,11 +321,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://ichov.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ichov.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://ichov.com/wp-content/themes/jiangziyu/images/logo.png" class="img-circle" width="40">
+                                <img src="https://ichov.com/wp-content/themes/jiangziyu/images/logo.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -332,11 +338,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.rkrkrk.tokyo/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.rkrkrk.tokyo/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://static.wixstatic.com/media/26ae44_31e64eddf0a0432d8e2e9508df4706a5~mv2.jpg/v1/fill/w_121,h_234,al_c,q_90/26ae44_31e64eddf0a0432d8e2e9508df4706a5~mv2.webp" class="img-circle" width="40">
+                                <img src="https://static.wixstatic.com/media/26ae44_31e64eddf0a0432d8e2e9508df4706a5~mv2.jpg/v1/fill/w_121,h_234,al_c,q_90/26ae44_31e64eddf0a0432d8e2e9508df4706a5~mv2.webp" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -347,11 +353,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://lorcanoshanahan.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://lorcanoshanahan.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200520114316.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200520114316.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -362,11 +368,11 @@
                         </div>
                     </div>
                 </div>
-                 <div class="col-sm-3">
+                 <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://carlhauser.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://carlhauser.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200511201805.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200511201805.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -377,43 +383,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3" >
-                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://panda.panda-studio.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://panda.panda-studio.cn">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="https://dsm.panda-studio.cn:8282/aliyun-wordpress/uploads/sites/7/2018/02/logo.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>猫熊设计</strong>
-                                </a>
-                                <p class="overflowClip_2">设计&前端开发博主博客</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3" >
-                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://d-d.design', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://d-d.design">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="http://d-d.design/tx/gdLogo.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>孤斗 [gū dóu]</strong>
-                                </a>
-                                <p class="overflowClip_2">做自己，不隨波逐流，不妥協</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://kentatoshikura.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://kentatoshikura.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200428003216.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200428003216.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -425,14 +399,46 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://panda.panda-studio.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://panda.panda-studio.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://dsm.panda-studio.cn:8282/aliyun-wordpress/uploads/sites/7/2018/02/logo.png" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>猫熊设计</strong>
+                                </a>
+                                <p class="overflowClip_2">设计&前端开发博主博客</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://d-d.design', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://d-d.design">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="http://d-d.design/tx/gdLogo.png" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>孤斗 [gū dóu]</strong>
+                                </a>
+                                <p class="overflowClip_2">做自己，不隨波逐流，不妥協</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <br />
             <h4 class="text-gray"><i class="linecons-cog" style="margin-right: 7px;" id="技术"></i>技术-前端</h4>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://ricostacruz.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ricostacruz.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://avatars0.githubusercontent.com/u/74385?s=400&u=3ff62084d6407dcd8ad75af2a73d9f0b60bfc368&v=4" class="img-circle" width="40">
+                                <img src="https://avatars0.githubusercontent.com/u/74385?s=400&u=3ff62084d6407dcd8ad75af2a73d9f0b60bfc368&v=4" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -443,11 +449,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.wenyuanblog.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.wenyuanblog.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://www.wenyuanblog.com/medias/avatar.png" class="img-circle" width="40">
+                                <img src="https://www.wenyuanblog.com/medias/avatar.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -458,11 +464,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.tanj.com.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.tanj.com.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://www.tanj.com.cn/public/img/lg.png" class="img-circle" width="40">
+                                <img src="https://www.tanj.com.cn/public/img/lg.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -473,11 +479,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://szhshp.org/index.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://szhshp.org/index.html">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="http://6sheep.gitee.io/10101.demo/comic/10101/headshot/0%20(2).png" class="img-circle" width="40">
+                                <img src="http://6sheep.gitee.io/10101.demo/comic/10101/headshot/0%20(2).png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -490,11 +496,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://shangpohyu.com/#', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://shangpohyu.com/#">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200520120051.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200520120051.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -505,11 +511,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://www.ruanyifeng.com/home.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://shangpohyu.com/#">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/bloglogo/person2.jpg" class="img-circle" width="40">
+                                <img src="../assets/images/bloglogo/person2.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -520,11 +526,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://iiong.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://iiong.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/bloglogo/hnyzm.svg" class="img-circle" width="40">
+                                <img src="../assets/images/bloglogo/hnyzm.svg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -535,11 +541,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open(' https://lzxjack.top/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title=" https://lzxjack.top/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://jack-img.oss-cn-hangzhou.aliyuncs.com/img/20201204121004.jpg" class="img-circle" width="40">
+                                <img src="https://jack-img.oss-cn-hangzhou.aliyuncs.com/img/20201204121004.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -554,11 +560,11 @@
             <br />
             <h4 class="text-gray"><i class="linecons-cog" style="margin-right: 7px;" id="图形"></i>技术-图形</h4>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://alteredqualia.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://alteredqualia.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://avatars3.githubusercontent.com/u/438022?s=460&v=4" class="img-circle" width="40">
+                                <img src="https://avatars3.githubusercontent.com/u/438022?s=460&v=4" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -570,11 +576,11 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://wangyasai.github.io/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://wangyasai.github.io/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://pic3.zhimg.com/v2-50752c06d883bc99e1f3e482997a1357_xl.jpg" class="img-circle" width="40">
+                                <img src="https://pic3.zhimg.com/v2-50752c06d883bc99e1f3e482997a1357_xl.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -589,11 +595,11 @@
             <br />
             <h4 class="text-gray"><i class="linecons-cog" style="margin-right: 7px;" id="编程" ></i>技术-编程</h4>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://exploro.one', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://exploro.one">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://www.gravatar.com/avatar/dfa26ed25a72c40d602d33d854dd6f07?s=200" class="img-circle" width="40">
+                                <img src="https://www.gravatar.com/avatar/dfa26ed25a72c40d602d33d854dd6f07?s=200" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -604,11 +610,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.zhyocean.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.zhyocean.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/zhy.png" class="img-circle" width="40">
+                                <img src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/zhy.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -619,11 +625,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.zrahh.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.zrahh.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://www.zrahh.com/img/avatar.jpg" class="img-circle" width="40">
+                                <img src="https://www.zrahh.com/img/avatar.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -634,11 +640,11 @@
                         </div>
                     </div>
                 </div>
-                 <div class="col-sm-3" >
+                 <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.imalan.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.imalan.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=64&r=G&d=" class="img-circle" width="40">
+                                <img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=64&r=G&d=" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -651,11 +657,11 @@
                 </div>  
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://mayuko.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://mayuko.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200501133213.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200501133213.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -666,11 +672,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.xgblack.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.xgblack.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://file.blog.xgblack.cn/wp-content/uploads/2018/08/XG003.png_towebp" class="img-circle" width="40">
+                                <img src="https://file.blog.xgblack.cn/wp-content/uploads/2018/08/XG003.png_towebp" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -681,11 +687,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://juantu.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://juantu.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.juantu.cn/wp-content/uploads/2019/09/7db8234dc767bab3.png" class="img-circle" width="40">
+                                <img src="https://cdn.juantu.cn/wp-content/uploads/2019/09/7db8234dc767bab3.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -696,11 +702,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.debuginn.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.debuginn.cn">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://secure.gravatar.com/avatar/52826f236c12da591d63363f999ea538" class="img-circle" width="40">
+                                <img src="https://secure.gravatar.com/avatar/52826f236c12da591d63363f999ea538" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -713,11 +719,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.liaoxuefeng.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.liaoxuefeng.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/bloglogo/lxf.jpg" class="img-circle" width="40">
+                                <img src="../assets/images/bloglogo/lxf.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -728,15 +734,30 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://rawchen.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://rawchen.com/favicon.png" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>RawChen</strong>
+                                </a>
+                                <p class="overflowClip_2">大道至简 大简至极</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
              <br />
             <h4 class="text-gray"><i class="linecons-cog" style="margin-right: 7px;" id="智能"></i>技术-智能</h4>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://qutang.dev/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://qutang.dev/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://avatars3.githubusercontent.com/u/844184?s=460&u=25e342e1b10dd8f96d7aab5c1b0e0bb7c25d08cf&v=4" class="img-circle" width="40">
+                                <img src="https://avatars3.githubusercontent.com/u/844184?s=460&u=25e342e1b10dd8f96d7aab5c1b0e0bb7c25d08cf&v=4" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -747,11 +768,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://best-yz.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://best-yz.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.jsdelivr.net/gh/HPU-Yz/cdn-speed@1.0/medias/avatar.jpg" class="img-circle" width="40">
+                                <img src="https://cdn.jsdelivr.net/gh/HPU-Yz/cdn-speed@1.0/medias/avatar.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -766,11 +787,11 @@
             <br />
             <h4 class="text-gray"><i class="linecons-cog" style="margin-right: 7px;" id="机械"></i>技术-机械</h4>
             <div class="row">
-                <!-- <div class="col-sm-3" >
+                <!-- <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://1x77.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://1x77.com">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/island.png" class="img-circle" width="40">
+                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/island.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -781,11 +802,11 @@
                         </div>
                     </div>
                 </div> -->
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://xd.sh.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://xd.sh.cn/about/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://xd.sh.cn/wp-content/uploads/2021/03/cropped-Screenshot_20161214-210350-32x32.png" class="img-circle" width="40">
+                                <img src="https://xd.sh.cn/wp-content/uploads/2021/03/cropped-Screenshot_20161214-210350-32x32.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -800,11 +821,11 @@
             <br />
             <h4 class="text-gray"><i class="linecons-cog" style="margin-right: 7px;" id="网络"></i>技术-网络</h4>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.shiyunhong.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.shiyunhong.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://i.loli.net/2019/09/01/54yrilS3OaQRHsn.png" class="img-circle" width="40">
+                                <img src="https://i.loli.net/2019/09/01/54yrilS3OaQRHsn.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -815,11 +836,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.btsafety.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.btsafety.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.v2ex.com/gravatar/738e63086c3b4a5fc9b8f39d20448fe5?s=200&d=identicon&r=g" class="img-circle" width="40">
+                                <img src="https://cdn.v2ex.com/gravatar/738e63086c3b4a5fc9b8f39d20448fe5?s=200&d=identicon&r=g" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -830,11 +851,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.naraku.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.naraku.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://www.naraku.cn/res/avatar.png" class="img-circle" width="40">
+                                <img src="https://www.naraku.cn/res/avatar.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -845,15 +866,64 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.addesp.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://www.addesp.com/avatar" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>ADD-SP's blog</strong>
+                                </a>
+                                <p class="overflowClip_2">记录 & 分享 & 感受</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <h4 class="text-gray"><i class="linecons-star" style="margin-right: 7px;" id="笔记"></i>技术-笔记</h4>
+            <div class="row">
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://magma.ink/', '_blank')" data-toggle="tooltip" data-placement="bottom">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://q1.qlogo.cn/g?b=qq&nk=823202450&s=640" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Magma Ink</strong>
+                                </a>
+                                <p class="overflowClip_2">为美好的生活献礼</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://blog.diego.plus:5800', '_blank')" data-toggle="tooltip" data-placement="bottom">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://cdn.jsdelivr.net/gh/diego3893/blog-FILE@1.2/typecho/logo_sq.jpg" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Diego’s Blog</strong>
+                                </a>
+                                <p class="overflowClip_2">一枚OI蒟蒻的博客</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <br />
             <h4 class="text-gray"><i class="linecons-camera" style="margin-right: 7px;" id="艺术"></i>艺术-摄影</h4>
             <div class="row">
-                <!-- <div class="col-sm-3" >
+                <!-- <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.jeray.wang/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.jeray.wang/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://jeray.wang/avatar.png" class="img-circle" width="40">
+                                <img src="https://jeray.wang/avatar.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -864,11 +934,11 @@
                         </div>
                     </div>
                 </div> -->
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://ncnccn.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ncnccn.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://c.disquscdn.com/uploads/users/33456/3001/avatar92.jpg?1570091477" class="img-circle" width="40">
+                                <img src="https://c.disquscdn.com/uploads/users/33456/3001/avatar92.jpg?1570091477" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -879,11 +949,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://www.kaca.live/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.kaca.live/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="http://cn.gravatar.com/avatar/2536ab18e7654229cb2fb11ecf787ad6?d=https://a.disquscdn.com/images/noavatar92.png&s=92" class="img-circle" width="40">
+                                <img src="http://cn.gravatar.com/avatar/2536ab18e7654229cb2fb11ecf787ad6?d=https://a.disquscdn.com/images/noavatar92.png&s=92" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -894,11 +964,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://yir.me/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://yir.me/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/bloglogo/dlyrsybk.jpg" class="img-circle" width="40">
+                                <img src="../assets/images/bloglogo/dlyrsybk.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -909,75 +979,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3" >
-                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.shephe.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.shephe.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="http://cn.gravatar.com/avatar/cbbe656c7bb46772f589c9b18a7c747e?s=100&d=mm&r=g" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>牧羊人</strong>
-                                </a>
-                                <p class="overflowClip_2">牧羊人</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3" >
-                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.rkrkrk.tokyo/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.rkrkrk.tokyo/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="https://static.wixstatic.com/media/26ae44_31e64eddf0a0432d8e2e9508df4706a5~mv2.jpg/v1/fill/w_121,h_234,al_c,q_90/26ae44_31e64eddf0a0432d8e2e9508df4706a5~mv2.webp" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>RK</strong>
-                                </a>
-                                <p class="overflowClip_2">He is a Photographer, Graphic designer and DJ (3 mixtapes released).He is one of the official photographers of the Tokyo running crew since 2013, which is called the “ATHLETICS FAR EAST (AFE)”.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3" >
-                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://curioso.photography/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://curioso.photography/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200511202353.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>curioso</strong>
-                                </a>
-                                <p class="overflowClip_2">Curioso Photography Travel & Aerial Photography :: 93 countries visited :: curioso.pl :: 2017 Sony World Photography Awards :: Final Shortlist</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://benjaminhardman.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://benjaminhardman.com">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200511211904.png" class="img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>B E N J A M I N</strong>
-                                </a>
-                                <p class="overflowClip_2">Based in Iceland.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://hanntime.blogspot.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://hanntime.blogspot.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200511212028.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200511212028.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -989,14 +995,76 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.shephe.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.shephe.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="http://cn.gravatar.com/avatar/cbbe656c7bb46772f589c9b18a7c747e?s=100&d=mm&r=g" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>牧羊人</strong>
+                                </a>
+                                <p class="overflowClip_2">牧羊人</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.rkrkrk.tokyo/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.rkrkrk.tokyo/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://static.wixstatic.com/media/26ae44_31e64eddf0a0432d8e2e9508df4706a5~mv2.jpg/v1/fill/w_121,h_234,al_c,q_90/26ae44_31e64eddf0a0432d8e2e9508df4706a5~mv2.webp" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>RK</strong>
+                                </a>
+                                <p class="overflowClip_2">He is a Photographer, Graphic designer and DJ (3 mixtapes released).He is one of the official photographers of the Tokyo running crew since 2013, which is called the “ATHLETICS FAR EAST (AFE)”.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://curioso.photography/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://curioso.photography/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200511202353.png" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>curioso</strong>
+                                </a>
+                                <p class="overflowClip_2">Curioso Photography Travel & Aerial Photography :: 93 countries visited :: curioso.pl :: 2017 Sony World Photography Awards :: Final Shortlist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://benjaminhardman.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://benjaminhardman.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200511211904.png" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>B E N J A M I N</strong>
+                                </a>
+                                <p class="overflowClip_2">Based in Iceland.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <br />
             <h4 class="text-gray"><i class="linecons-star" style="margin-right: 7px;" id="研究"></i>研究-生化</h4>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://kaopubear.top/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://kaopubear.top/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://kaopubear.top/assets/images/avataaarsnewsmile.png" class="img-circle" width="40">
+                                <img src="https://kaopubear.top/assets/images/avataaarsnewsmile.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1007,11 +1075,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://web.mit.edu/caoyuan/www/index.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://web.mit.edu/caoyuan/www/index.html">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200508232202.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200508232202.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1025,13 +1093,13 @@
             </div>
             <br/>
             <!-- 杂谈 -->
-            <h4 class="text-gray"><i class="linecons-star" style="margin-right: 7px;" id="杂谈"></i>杂谈-生活</h4>
+            <h4 class="text-gray"><i class="linecons-star" style="margin-right: 7px;" id="杂谈"></i>杂谈-观点</h4>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://yuuiki.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://yuuiki.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/island.png" class="img-circle" width="40">
+                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/island.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1042,11 +1110,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://fatesinger.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://fatesinger.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://static.fatesinger.com/2018/05/q3wyes7va2ehq59y.JPG" class="img-circle" width="40">
+                                <img src="https://static.fatesinger.com/2018/05/q3wyes7va2ehq59y.JPG" class="img-rounded" width="60">
                             </a>
 
                             <div class="xe-comment">
@@ -1058,11 +1126,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://josephilo.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://josephilo.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200502205551.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200502205551.png" class="img-rounded" width="60">
                             </a>
 
                             <div class="xe-comment">
@@ -1074,11 +1142,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://blog.dylanwu.space/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://blog.dylanwu.space/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200502210233.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200502210233.png" class="img-rounded" width="60">
                             </a>
 
                             <div class="xe-comment">
@@ -1092,11 +1160,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://lhcy.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://lhcy.org/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200502230545.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200502230545.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1107,11 +1175,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://imzm.im/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://imzm.im/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://secure.gravatar.com/avatar/9f2b81a083d9311a6d30ab270e3b9332?s=48&d=retro&r=g" class="img-circle" width="40">
+                                <img src="https://secure.gravatar.com/avatar/9f2b81a083d9311a6d30ab270e3b9332?s=48&d=retro&r=g" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1122,11 +1190,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.mboker.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.mboker.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.v2ex.com/gravatar/82ac9adfb8b0e20221c98dc698841376?s=100" class="img-circle" width="40">
+                                <img src="https://cdn.v2ex.com/gravatar/82ac9adfb8b0e20221c98dc698841376?s=100" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1137,11 +1205,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://imsnake.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://imsnake.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/bloglogo/justsnake.png" class="img-circle" width="40">
+                                <img src="../assets/images/bloglogo/justsnake.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1154,11 +1222,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.yamdr.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.yamdr.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://www.yamdr.cn/tx.jpg" class="img-circle" width="40">
+                                <img src="https://www.yamdr.cn/tx.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1169,11 +1237,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.viernes.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/bloglogo/fyz.jpeg" class="img-circle" width="40">
+                                <img src="../assets/images/bloglogo/fyz.jpeg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1184,11 +1252,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://www.lshongg.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://www.lshongg.cn/tx.jpg" class="img-circle" width="40">
+                                <img src="https://www.lshongg.cn/tx.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1199,11 +1267,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://blog.farmostwood.net/ ', '_blank')" data-toggle="tooltip" data-placement="bottom" title="">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="http://blog.farmostwood.net/wp-content/themes/relaxation_ttftitle/images/feather.png " class="img-circle" width="40">
+                                <img src="http://blog.farmostwood.net/wp-content/themes/relaxation_ttftitle/images/feather.png " class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1216,11 +1284,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.catyo.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.catyo.cn">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://sdn.geekzu.org/avatar/9c1f881af8a4c0e5d84528aae6271c7d?s=200" class="img-circle" width="40">
+                                <img src="https://sdn.geekzu.org/avatar/9c1f881af8a4c0e5d84528aae6271c7d?s=200" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1231,15 +1299,60 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.yotroy.cool/', '_blank')" data-toggle="tooltip" data-placement="bottom">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://yotroyblog.oss-cn-beijing.aliyuncs.com/logo.png" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong> Yo!🤞Troy</strong>
+                                </a>
+                                <p class="overflowClip_2">那些看似不起波澜的日复一日 在某天会让你看到坚持的意义</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://zerg.cc/links.html', '_blank')" data-toggle="tooltip" data-placement="bottom">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong> 战国册</strong>
+                                </a>
+                                <p class="overflowClip_2">江西陈氏，字埃，号雪狐，墨啡，麋一样的鹿，从软件业数十载，尊比尔·盖茨，奉詹姆斯·高斯林，朝谷歌，拜太阳，少年壮志，空余京杭甬。所善者寥，所好者甚，好鲜衣，好美食，好精舍，好香车，好红颜，好黑夜，好摄影，好远游，好声乐，好书画，好咖啡，好猫犬，好冬日暖阳，窗台麻雀，好十里珠帘，千钟美酒，百尺危楼。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.huhexian.com/', '_blank')" data-toggle="tooltip" data-placement="bottom">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong> 青山绿水</strong>
+                                </a>
+                                <p class="overflowClip_2">朴素生活，高尚思考。（Plain living and High thinking）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <br />
-            <h4 class="text-gray"><i class="linecons-star" style="margin-right: 7px;" id="文学"></i>杂谈-文学</h4>
+            <h4 class="text-gray"><i class="linecons-star" style="margin-right: 7px;" id="文学"></i>杂谈-故事</h4>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://xajh.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://xajh.org/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/island.png" class="img-circle" width="40">
+                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/island.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1250,15 +1363,30 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://dou.lu/1630.x', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://xajh.org/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://dou.lu/wp-content/uploads/2012/10/jiefang.jpg" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>逗妇鲁</strong>
+                                </a>
+                                <p class="overflowClip_2">不二逼的人都是一样的，二逼的人却各有各的二逼。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <br/>
             <h4 class="text-gray"><i class="linecons-star" style="margin-right: 7px;" id="记事"></i>杂谈-记事</h4>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.juroku.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.juroku.net/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.v2ex.com/gravatar/a60c65c700a2889b82ab6aa0967a0ab1?s=64" class="img-circle" width="40">
+                                <img src="https://cdn.v2ex.com/gravatar/a60c65c700a2889b82ab6aa0967a0ab1?s=64" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1269,11 +1397,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('http://www.iinorii.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.iinorii.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200429220038.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200429220038.png" class="img-rounded" width="60">
                             </a>
 
                             <div class="xe-comment">
@@ -1286,11 +1414,11 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://jubeny.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://jubeny.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200502231407.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200502231407.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1301,11 +1429,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://seewoll.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://seewoll.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="http://seewoll.com/favicon.png" class="img-circle" width="40">
+                                <img src="http://seewoll.com/favicon.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1318,11 +1446,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://taoxinhao.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://taoxinhao.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/bloglogo/base32.png" class="img-circle" width="40">
+                                <img src="../assets/images/bloglogo/base32.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1333,11 +1461,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://meow3.family.blog/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://meow3.family.blog/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://mewfamilyblog.files.wordpress.com/2019/03/f39fd-e79fade58f91e7b4abe889b2e7b3bbe5a4b4e5838f.jpeg" class="img-circle" width="40">
+                                <img src="https://mewfamilyblog.files.wordpress.com/2019/03/f39fd-e79fade58f91e7b4abe889b2e7b3bbe5a4b4e5838f.jpeg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1348,11 +1476,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.danilelxp.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.danilelxp.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="../assets/images/bloglogo/jg.png" class="img-circle" width="40">
+                                <img src="../assets/images/bloglogo/jg.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1363,11 +1491,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.某昴.work/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.某昴.work/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img.某昴.work/ico.jpg" class="img-circle" width="40">
+                                <img src="https://img.某昴.work/ico.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1380,11 +1508,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.citynomads.cn', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://citynomads.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/island.png" class="img-circle" width="40">
+                                <img src="https://raw.githubusercontent.com/Uzizkp/image-host/master/img/picgo/island.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1395,11 +1523,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://note-star.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://note-star.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://note-star.cn/upload/admin/avatar/d2f4e98872185631.jpg" class="img-circle" width="40">
+                                <img src="https://note-star.cn/upload/admin/avatar/d2f4e98872185631.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1410,19 +1538,96 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.yotroy.cool/', '_blank')" data-toggle="tooltip" data-placement="bottom">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://yotroyblog.oss-cn-beijing.aliyuncs.com/logo.png" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong> Yo!🤞Troy</strong>
+                                </a>
+                                <p class="overflowClip_2">那些看似不起波澜的日复一日 在某天会让你看到坚持的意义</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.dxsh.vip/', '_blank')" data-toggle="tooltip" data-placement="bottom">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://www.hualigs.cn/image/609149136f76c.jpg" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong> 魔法矮人</strong>
+                                </a>
+                                <p class="overflowClip_2">说有梦境都是另一个现实</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-              <br />
+            <div class="row">
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open(' https://kn007.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" >
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://kn007.net/Donate/donate.png" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>kn007的个人博客</strong>
+                                </a>
+                                <p class="overflowClip_2">kn007的个人博客，抒发心情，折腾wordpress，偶尔的遐想，音乐骚人，喜欢小动物，爱护自然，西片迷，帮忙折腾</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open(' http://imjiayin.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" >
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>JIAYIN'S LIFE</strong>
+                                </a>
+                                <p class="overflowClip_2">I AM NOT PERFECT BUT MY LIFE IS.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open(' https://www.lingchenzi.com/ ', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" >
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img src="https://secure.gravatar.com/avatar/edab1286987e1dafe9650a04194131fd?s=44&d=monsterid&r=g" class="img-rounded" width="60">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>灵尘居</strong>
+                                </a>
+                                <p class="overflowClip_2">一位互联网从业人员的博客，创建于2011年，主要是记录个人生活，关注互联网，分享读书心得，偶尔聊聊对电影、电视、音乐、动漫和新闻事件的看法。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
             <h4 class="text-gray"><i class="linecons-heart" style="margin-right: 7px;" id="友情链接"></i>
                 <a href="http://zkpeace.com/blog/about/link/" target="_blank">
                             友情链接
                 </a>
             </h4>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://hclonely.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://hclonely.com">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@latest/img/avatar.jpg" class="img-circle" width="40">
+                                <img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@latest/img/avatar.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1433,11 +1638,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://bili33.top/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bili33.top/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png" class="img-circle" width="40">
+                                <img src="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1448,11 +1653,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.cz5h.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.cz5h.com">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.jsdelivr.net/gh/TianZonglin/tuchuang/img/logo.jpg" class="img-circle" width="40">
+                                <img src="https://cdn.jsdelivr.net/gh/TianZonglin/tuchuang/img/logo.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1463,11 +1668,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.tjzzz.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.tjzzz.com">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://tjzzz.com/img/avatar.png" class="img-circle" width="40">
+                                <img src="https://tjzzz.com/img/avatar.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1480,11 +1685,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.tanj.com.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.tanj.com.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://www.tanj.com.cn/public/img/lg.png" class="img-circle" width="40">
+                                <img src="https://www.tanj.com.cn/public/img/lg.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1495,11 +1700,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.yanghujun.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.yanghujun.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://www.yanghujun.com/upload/2019/12/heart-5f900bb03cab4755bbac1c7124b03bc8.jpg" class="img-circle" width="40">
+                                <img src="https://www.yanghujun.com/upload/2019/12/heart-5f900bb03cab4755bbac1c7124b03bc8.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1510,11 +1715,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://slykiten.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://slykiten.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://secure.gravatar.com/avatar/9b241cdbe7856ca53e3aadf88af4ed69?s=48&d=mm&r=g" class="img-circle" width="40">
+                                <img src="https://secure.gravatar.com/avatar/9b241cdbe7856ca53e3aadf88af4ed69?s=48&d=mm&r=g" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1525,11 +1730,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://xiabor.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://xiabor.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://xiabor.com/img/avatar.png" class="img-circle" width="40">
+                                <img src="https://xiabor.com/img/avatar.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1542,11 +1747,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.ccyh.xyz/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.ccyh.xyz/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/myavatar.jpg" class="img-circle" width="40">
+                                <img src="https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/myavatar.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1557,11 +1762,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.fkun.tech/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.fkun.tech/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://fkun.tech/images/avatar.png" class="img-circle" width="40">
+                                <img src="https://fkun.tech/images/avatar.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1572,11 +1777,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://meow3.family.blog/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://meow3.family.blog/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://mewfamilyblog.files.wordpress.com/2019/03/f39fd-e79fade58f91e7b4abe889b2e7b3bbe5a4b4e5838f.jpeg" class="img-circle" width="40">
+                                <img src="https://mewfamilyblog.files.wordpress.com/2019/03/f39fd-e79fade58f91e7b4abe889b2e7b3bbe5a4b4e5838f.jpeg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1587,11 +1792,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.pyliubaolin.top/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.pyliubaolin.top/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://blog.pyliubaolin.top/img/favicon.png" class="img-circle" width="40">
+                                <img src="https://blog.pyliubaolin.top/img/favicon.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1604,11 +1809,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://best-yz.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://best-yz.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.jsdelivr.net/gh/HPU-Yz/cdn-speed@1.0/medias/avatar.jpg" class="img-circle" width="40">
+                                <img src="https://cdn.jsdelivr.net/gh/HPU-Yz/cdn-speed@1.0/medias/avatar.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1619,11 +1824,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://heycmm.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://heycmm.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.v2ex.com/gravatar/8ab4390d6b7163cb5fa805fd78fc109f?s=256&d=mm" class="img-circle" width="40">
+                                <img src="https://cdn.v2ex.com/gravatar/8ab4390d6b7163cb5fa805fd78fc109f?s=256&d=mm" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1634,11 +1839,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.2broear.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.2broear.com">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img.2broear.com/2broear.png" class="img-circle" width="40">
+                                <img src="https://img.2broear.com/2broear.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1649,11 +1854,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-sm-3" >
+                <!-- <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://taog.top', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://taog.top">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://cdn.jsdelivr.net/gh/taoggt/image/img/a12.png" class="img-circle" width="40">
+                                <img src="https://cdn.jsdelivr.net/gh/taoggt/image/img/a12.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1664,11 +1869,11 @@
                         </div>
                     </div>
                 </div> -->
-                <!-- <div class="col-sm-3" >
+                <!-- <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://liuyifei.club', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://liuyifei.club">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://avatars2.githubusercontent.com/u/53306807?s=88&u=6c37aa32fd8d0380f69118540573ea2ca86032a6&v=4" class="img-circle" width="40">
+                                <img src="https://avatars2.githubusercontent.com/u/53306807?s=88&u=6c37aa32fd8d0380f69118540573ea2ca86032a6&v=4" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1683,11 +1888,11 @@
 
             </div>
             <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.uniartisan.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.uniartisan.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200520114924.png" class="img-circle" width="40">
+                                <img src="https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/articles/vda/20200520114924.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1698,11 +1903,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://www.yamdr.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.yamdr.cn/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://www.yamdr.cn/tx.jpg" class="img-circle" width="40">
+                                <img src="https://www.yamdr.cn/tx.jpg" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1713,11 +1918,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://blog.shiyunhong.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.shiyunhong.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://i.loli.net/2019/09/01/54yrilS3OaQRHsn.png" class="img-circle" width="40">
+                                <img src="https://i.loli.net/2019/09/01/54yrilS3OaQRHsn.png" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1730,11 +1935,11 @@
                 </div>
             </div>
             <!-- <div class="row">
-                <div class="col-sm-3" >
+                <div class="col-md-3" >
                     <div class="xe-widget xe-conversations box2 label-info" style="border-radius: 8px" onclick="window.open('https://liuyifei.club', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://liuyifei.club">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img src="https://avatars2.githubusercontent.com/u/53306807?s=88&u=6c37aa32fd8d0380f69118540573ea2ca86032a6&v=4" class="img-circle" width="40">
+                                <img src="https://avatars2.githubusercontent.com/u/53306807?s=88&u=6c37aa32fd8d0380f69118540573ea2ca86032a6&v=4" class="img-rounded" width="60">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
@@ -1748,7 +1953,12 @@
             </div> -->
             <br />
             <!-- END 友情链接 -->
-              <br />
+            <script type="text/javascript">
+                $('img').on("error", function() {
+                    $(this).attr('src', '../assets/images/island.png');  // 替换为默认图片
+                  });
+            </script>
+            <br />
             <!-- Main Footer -->
             <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
             <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
@@ -1779,6 +1989,7 @@
         </div>
     </div>
     <!-- 锚点平滑移动 -->
+
 <script type="text/javascript">
     $(document).ready(function() {
          $("#main-menu li ul li").click(function() {
